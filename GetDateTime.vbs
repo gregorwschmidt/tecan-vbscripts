@@ -1,0 +1,2 @@
+dateTime = Year(now) & "-" & right("00" & Month(now),2) & "-" & right("00" & Day(now),2) & "_" & right("00" & Hour(now),2) & "-" & right("00" & Minute(now),2) & "-" & right("00" & Second(now),2)
+Evoware.SetStringVariable "VBScript_DateTime", dateTime
